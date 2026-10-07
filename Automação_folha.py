@@ -519,12 +519,7 @@ ws_tributos_verificacao = wb_verificacao["TRIBUTOS"]
 # VERIFICAR ALGUNS FUNCIONARIOS
 # =========================================================
 
-funcionarios_teste = [
-    "JOÃO",
-    "CARLOS",
-    "MARIA",
-    "ANA"
-]
+funcionarios_teste = list(funcionarios_folha.keys())[:4]
 
 
 print()
